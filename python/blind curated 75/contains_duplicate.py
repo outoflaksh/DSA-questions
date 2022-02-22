@@ -12,5 +12,5 @@ def containsDuplicate(nums: list) -> bool:
     return False
 
 
-print(containsDuplicate([1, 2, 3, 1]))  # False
-print(containsDuplicate([1, 2, 3]))  # True
+print(containsDuplicate([1, 2, 3, 1]))  # True
+print(containsDuplicate([1, 2, 3]))  # False
