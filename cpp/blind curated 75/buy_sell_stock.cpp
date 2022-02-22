@@ -6,6 +6,7 @@
 
 using namespace std;
 
+// two pointer soln
 int maxProfit(vector<int> &prices)
 {
     int left = 0, right = 1;
@@ -13,12 +14,14 @@ int maxProfit(vector<int> &prices)
 
     while (right < prices.size())
     {
+        // update left to be the min of the pointers
         if (prices.at(right) < prices.at(left))
         {
             left = right;
         }
         else
         {
+            // calc profit at all possible right vals
             profit = max(profit, prices.at(right) - prices.at(left));
         }
 
