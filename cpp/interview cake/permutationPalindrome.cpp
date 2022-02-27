@@ -57,7 +57,7 @@ bool hasPalindromePermutationSet(const string& str)
 }
 
 int main() {
-	string s = "ivicc";
+	string s = "ivicc"; 
 
 	cout << hasPalindromePermutationMap(s) << endl; // true or 1
 	cout << hasPalindromePermutationSet(s) << endl; // true or 1
