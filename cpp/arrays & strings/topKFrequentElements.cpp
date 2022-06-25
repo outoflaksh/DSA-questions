@@ -36,4 +36,4 @@ vector<int> topKFrequent(vector<int>& nums, int k) {
     return result;
 }
 
-// Time: O(N*logN); Space: O(N)
+// Time: O(N*logN) (heapifying everytime we remove top of heap); Space: O(N)
